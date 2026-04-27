@@ -1,0 +1,249 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu{
+    display: flex;
+    margin-left: -300px;
+    gap: 48px;
+
+}
+.icons{
+    display: flex;
+    margin-left: 100px;
+    gap:48px;
+}
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 48px;
+    width: 1440px;
+}
+footer{
+    background-color: #C1DCDC
+}
+.other{
+    gap: 24px;
+}
+.text{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 ustun */
+    grid-template-rows: repeat(3, 50px);  /* 3 qator */
+    max-height: 180px;
+}
+
+
+
+
+
+.sliding{
+    background-color: #C1DCDC;
+    display: flex;
+    max-height: 512px;
+    border-radius: 24px;
+    margin: 40px 0;
+}
+.slid{
+    width: 50%;
+    padding: 48px;
+}
+
+.holes{
+    padding: 123px 72px 0 0;
+}
+.flower{
+  transform: translate(250px, -498px); /* x, y */
+}
+.second{
+    padding: 0 0 50px 0;
+}
+.arrow{
+    padding: 13px 10px 0 0;
+    transform: translate(235px, -790px); /* x, y */
+}
+
+
+.numbers{
+    display: flex;
+}
+.fivety{
+    padding-right: 48px ;
+}
+.hundred{
+    padding-left: 48px;
+}
+.search{
+    display: flex;
+  align-items: center;
+  width: 300px;
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 18px;
+  margin-top: 48px;
+  
+}
+.search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 12px;
+  flex: 1;
+  font-size: 16px;
+}
+.search button {
+  background: #cfe3e3;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search button:hover {
+  background: #b9d4d4;
+}
+.plants{
+    display: flex;
+    gap: 0 24px;
+    justify-content: center;
+    text-align: center;
+}
+.see{
+    display: flex;
+    background-color: #C1DCDC;
+    border-radius: 8px;
+    width: 168px;
+    height: 51px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.imgs{
+    width: 96px;
+    height: 96px;
+    background-color: #b9d4d4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.basket{
+    display: inline-block;
+    justify-content: center;
+    gap: 0 24px ;
+    margin: 48px 0;
+}
+.basket-img{
+    display: flex;
+    background-color:#C1DCDC;
+    width:96px;
+    height:96px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 152px 24px 152px;
+}
+
+.flowers{
+    background: #C1DCDC;
+    margin-top: 96px;
+    position: relative;
+}
+.flowers::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -95px;
+  right: -95px;
+  bottom: -10px;
+  background: #C1DCDC;
+  z-index: -1;
+}
+.imgcategory{
+    display: inline-block;
+    padding-bottom: 101px;
+    text-align: center;
+}
+.flow1{
+    transform: translate(0px, -150px); /* x, y */
+}
+.flow2{
+    transform: translate(96px, 50px); /* x, y */
+}
+.flow3{
+    transform: translate(192px, -150px); /* x, y */
+}
+
+.massage{
+    color:#1E1E1E;
+    margin: 12px 0;
+}
+
+.explore{
+    padding: 12px 14px;
+    background-color: white;
+    border-radius: 8px;
+    width: 147px;
+    margin: 0 100px;
+
+    gap: 10px;
+}
+.category{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.jounday{
+    display: flex;
+    gap: 48px;
+    margin:48px 0 235px 96px ;
+}
+.joun{
+    background-color: #C1DCDC;
+    width: 800px;
+    border-radius: 24px;
+}
+.say{
+    margin-top: 96px;
+}
+.masage{
+    margin: 48px;
+}
+.costum{
+    display: flex;
+}
+.bro{
+    transform: translate(0px,5px); /* x, y */
+}
+.sister{
+    transform: translate(0px,15px); /* x, y */
+}
